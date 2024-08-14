@@ -1,0 +1,88 @@
+*{
+    background-color: #000;
+    
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.padrao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#marca{
+    height: 600px;
+    width: 50%;
+    background-color: #15ae;
+    
+    
+}
+
+
+.container{
+
+    height: 500px;
+    width: 45%;
+    background-color: #78ac69;
+    text-align: center;
+    
+    
+}
+
+.teclado{
+    
+    
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    background-color: #78ac69;
+    
+    
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    background-color: #78ac69;
+    
+}
+
+
+input[type=Tel]{
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    width: 95%;
+    height: 25px;
+    background-color: #fefe;
+}
+
+input[type=button]{
+   
+    height: 70px;
+    background-color: #fefe;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
